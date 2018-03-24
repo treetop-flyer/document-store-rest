@@ -3,6 +3,8 @@ if (!process.env['NODE_ENV'] === false && process.env['NODE_ENV'] === 'developme
     require('dotenv').config();
 }
 
-console.log(process.env.PORT);
+var config = require('./src/app/configuration');
+
+console.log(config.errors);
 
 
