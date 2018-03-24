@@ -1,5 +1,5 @@
 # package-lock built in flight
-package-lock.json
+package-lock.*
 
 # IDE
 .idea
