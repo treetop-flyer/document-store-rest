@@ -4,6 +4,7 @@
   "description": "RESTful API storing into mongodb and mysql",
   "main": "server.js",
   "scripts": {
+    "development": "NODE_ENV=development node server.js",
     "clean_install": "npm run purge_package_lock; npm run purge_modules; npm install",
     "purge_package_lock": "rm -f package-lock.json",
     "purge_modules": "if [ -d \"node_modules/\" ]; then rm -Rf node_modules; fi;",
@@ -35,6 +36,7 @@
   "dependencies": {
     "JSONPath": "^0.11.2",
     "cryptr": "^3.0.0",
+    "express": "^4.16.3",
     "fs": "0.0.1-security",
     "md5": "^2.2.1",
     "md5-file": "^3.1.1",
