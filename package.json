@@ -1,0 +1,27 @@
+{
+  "name": "document-store-rest",
+  "version": "0.0.1",
+  "description": "RESTful API storing into mongodb and mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treetop-flyer/document-store-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "mongodb",
+    "mysql",
+    "store",
+    "stateful"
+  ],
+  "author": "Treetop-flyer",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/treetop-flyer/document-store-rest/issues"
+  },
+  "homepage": "https://github.com/treetop-flyer/document-store-rest#readme"
+}
