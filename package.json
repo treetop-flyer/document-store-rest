@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/treetop-flyer/document-store-rest/issues"
   },
-  "homepage": "https://github.com/treetop-flyer/document-store-rest#readme"
+  "homepage": "https://github.com/treetop-flyer/document-store-rest#readme",
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
 }
