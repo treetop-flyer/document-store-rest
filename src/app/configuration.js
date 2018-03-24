@@ -12,6 +12,6 @@ function readEnv(name, value, fallback) {
 
 module.exports = {
     port: readEnv('port', process.env.PORT, 5000),
-    port: readEnv('hostname', process.env.HOST, 'localhost'),
+    hostname: readEnv('hostname', process.env.HOST, 'localhost'),
     errors: errors
 };
