@@ -1,3 +1,6 @@
+# package-lock built in flight
+package-lock.json
+
 # IDE
 .idea
 
