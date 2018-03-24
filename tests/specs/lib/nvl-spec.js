@@ -1,6 +1,6 @@
-require('./../../src/sign-test')(__filename);
+require('./../../../src/lib/sign-test')(__filename);
 
-var udf, nvl = require('./../../src/nvl');
+var udf, nvl = require('./../../../src/lib/nvl');
 
 describe('nvl', function () {
 

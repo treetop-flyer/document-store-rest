@@ -1,7 +1,7 @@
-require('./../../src/sign-test')(__filename);
+require('./../../../src/lib/sign-test')(__filename);
 
 var md5 = require('md5'),
-    String = require('./../../src/string-polyfills');
+    String = require('./../../../src/lib/string-polyfills');
 
 describe('String', function () {
 

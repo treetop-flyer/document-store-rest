@@ -1,6 +1,6 @@
-require('./../../src/sign-test')(__filename);
+require('./../../../src/lib/sign-test')(__filename);
 
-var trim = require('./../../src/trim');
+var trim = require('./../../../src/lib/trim');
 
 describe('trim', function () {
 

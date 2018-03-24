@@ -1,4 +1,4 @@
-require('./../../src/sign-test')(__filename);
+require('./../../../src/lib/sign-test')(__filename);
 
 
 if (!String.prototype.contains){
@@ -19,7 +19,7 @@ function MockConsole () {
 
 var mockConsole = new MockConsole();
 
-require('./../../src/sign-test')(__dirname+'/nvl-spec.js', mockConsole);
+require('./../../../src/lib/sign-test')(__dirname+'/nvl-spec.js', mockConsole);
 
 describe('console can be injected', function () {
     it('string contains a valid MD5', function () {
